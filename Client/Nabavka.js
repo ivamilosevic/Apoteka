@@ -79,7 +79,7 @@ export class Nabavka
             }
             if(s.ok)
             {
-                alert("OK");
+                alert("Uspesno obrisana nabavka");
                 this.obrisiNabavkuIzTabele(host);
             }
             

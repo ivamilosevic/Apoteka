@@ -355,6 +355,7 @@ export class Apoteka{
                     data.forEach(st =>{
                         const nabavka=new Nabavka(st.naziv,st.rezimIzdavanja,st.farmaceutskiOblik,st.firma,st.telefon,st.ime,st.prezime,st.kolicina,st.cena);
                         console.log(nabavka);
+                        alert("Uspesno uneta nabavka");
                         nabavka.crtaj(teloTabele);
                     })
                 })
@@ -397,7 +398,7 @@ export class Apoteka{
         {
             if(s.status == 400)
             {
-                alert("Greska");
+                alert("Greska, data nabavka ne postoji");
                 return;
             }
             if(s.ok)
