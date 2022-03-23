@@ -1,6 +1,7 @@
 .GlavniKontejner
 {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
     margin-bottom: 20px;
     background-image: url('apoteka.jpg');
